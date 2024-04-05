@@ -1,0 +1,153 @@
+.container-d-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url("https://i.pinimg.com/564x/75/b2/f1/75b2f13d9631a283f3ba4ac051829e58.jpg");
+  background-size: cover;
+}
+.btn-outline-success {
+  background-color: rgb(255, 54, 54);
+  color: white;
+}
+footer {
+  padding: 10px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+}
+.recent {
+  padding: 60px 148px;
+  background-color: #dbedf2;
+}
+
+.recent .header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.recent .header h4,
+.separator h4 {
+  font-size: 20px;
+  font-weight: 10px;
+}
+
+.recent .header a {
+  color: #303f9f;
+}
+.recent .content-container {
+  font-size: 15px;
+}
+.recent .content-image {
+  max-width: 50%;
+  height: auto; /* Menjaga aspek rasio gambar */
+  display: block; /* Membuat gambar menjadi blok elemen */
+  margin-left: auto; /* Mengatur margin kiri menjadi otomatis */
+  margin-right: auto; /* Mengatur margin kanan menjadi otomatis */
+}
+footer p {
+  font-size: 14px;
+}
+.card-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 5px;
+}
+
+.card {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 50%;
+  overflow: hidden;
+  height: 100%;
+  object-fit: cover;
+}
+.btn-primary {
+  background-color: white;
+  color: black;
+}
+.page-title {
+  font-size: 20px;
+}
+.content .container .about > p {
+  text-align: justify;
+}
+
+.email {
+  font-weight: bold;
+  margin-top: 30px;
+  font-size: 14px;
+}
+.content .work-info {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
+  width: 970px;
+}
+
+.content .work-info .category {
+  color: #8695a4;
+  font-size: 18px;
+}
+.content .work-info .year-badge {
+  background-color: #303f9f;
+  padding: 2px 14px;
+  color: #fff;
+  border-radius: 16px;
+  font-size: 14px;
+  font-weight: bold;
+}
+.content .work-info,
+.content > p,
+.content > img,
+.content > h1,
+.content > h2,
+.content > a,
+.content .post-list .post-item,
+.content .container {
+  width: 100%;
+}
+.works-list .item {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+  border-bottom: 2px solid #e0e0e0;
+}
+.works-list .item img {
+  width: 320px;
+  height: 200px;
+  border-radius: 6px;
+}
+.works-list .item a {
+  font-size: 30px;
+  margin-bottom: 16px;
+}
+.works-list .item .details .item-info {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+.works-list .item .details .item-info h4 {
+  color: #8695a4;
+  font-size: 18px;
+}
+.works-list .item .details p {
+  width: 700px;
+  text-align: justify;
+}
+.works-list .item .details p {
+  width: 100%;
+}
